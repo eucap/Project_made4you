@@ -1,0 +1,46 @@
+.checkout-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.checkout-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.checkout-section {
+    margin-bottom: 15px;
+}
+
+.checkout-section label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.checkout-section input, .checkout-section textarea, .checkout-section select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.checkout-section textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.place-order-btn {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.place-order-btn:hover {
+    background-color: #0056b3;
+}

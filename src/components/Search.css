@@ -1,0 +1,28 @@
+.search-form {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.search-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+.search-button {
+    padding: 10px 20px;
+    background: #2b2c2c;
+    color: #f8f8f8;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background: #fcfcfc;
+    color: #2b2c2c;
+}

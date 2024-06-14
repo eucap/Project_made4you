@@ -1,0 +1,15 @@
+.search-results {
+    padding: 20px;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product-container > div {
+    cursor: pointer;
+    width: 300px;
+}

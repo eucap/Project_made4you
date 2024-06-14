@@ -1,0 +1,19 @@
+add product 
+
+{
+    "name": "Product 4",
+    "brand": "Brand 4",
+    "price": 250,
+    "actualPrice": 400,
+    "discount": 40,
+    "images": [
+        "img/product_image1.png",
+        "img/product_image2.png",
+        "img/product_image3.png",
+        "img/product_image4.png"
+    ],
+    "description": "A short line about the product.",
+    "category": "men",
+    "sizes": ["S", "M", "L", "XL"],
+    "reviews": []
+}

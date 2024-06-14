@@ -1,0 +1,54 @@
+.product-upload-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-upload-form input, 
+.product-upload-form textarea, 
+.product-upload-form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.product-upload-form input:focus,
+.product-upload-form textarea:focus,
+.product-upload-form select:focus {
+    border-color: #007bff;
+}
+
+.product-upload-form textarea {
+    resize: vertical;
+}
+
+.product-upload-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #383838;
+    color: #fff;
+    cursor: pointer;
+}
+
+.product-upload-form button:hover {
+    background-color: #000;
+    margin-bottom: 5px;
+}
+
+.product-upload-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.product-upload-form .form-group {
+    display: flex;
+    flex-direction: column;
+}
