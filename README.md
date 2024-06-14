@@ -1,4 +1,5 @@
-<<<<<<< HEAD
+Made4you Website- by USN 221VMTR02545
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -34,41 +35,73 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Sample API Endpoints
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+User Management:
+• POST /api/users/signup: Registers a new user.
+• POST /api/users/login: Authenticates a user.
+• GET /api/users/profile: Fetches the user's profile.
+• PUT /api/users/address: Updates the user's address.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Product Management:
+• GET /api/products: Fetches all products.
+• POST /api/products: Adds a new product.
+• GET /api/products/:id: Fetches a specific product by ID.
+• DELETE /api/products/:id: Deletes a product by ID.
+• GET /api/products/search: Searches products based on a query.
 
-## Learn More
+Order Management:
+• POST /api/orders: Places a new order.
+• GET /api/orders: Fetches all orders (Admin only).
+• GET /api/orders/user: Fetches orders for the logged-in user.
+• DELETE /api/orders/:id: Deletes an order by ID.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Wishlist Management:
+• POST /api/wishlist: Adds a product to the wishlist.
+• GET /api/wishlist: Fetches the user's wishlist.
+• DELETE /api/wishlist/:productId: Removes a product from the wishlist by product ID.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Appendix C: Installation Guide
 
-### Code Splitting
+MongoDB Installation:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Download MongoDB from mongodb.com.
+2. Follow installation instructions for your operating system.
+3. Start MongoDB service:
+   macOS/Linux: brew services start mongodb/brew/mongodb-community
+   Windows: net start MongoDB
 
-### Analyzing the Bundle Size
+Rasa Installation:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Create a virtual environment:
+   python3 -m venv rasa_env (python3.10 recommended)
+2. Activate the virtual environment:
+   Windows: rasa_env\Scripts\activate
+   macOS/Linux: source rasa_env/bin/activate
+3. Install Rasa:
+   pip install rasa
+4. Initialize and configure Rasa project:
+   rasa init
+5. Train Rasa model:
+   rasa train
+6. Start Rasa servers:
+   rasa run actions
+   rasa run or
+   rasa run –enable-api -cors “\*”
 
-### Making a Progressive Web App
+Backend Installation:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. Navigate to backend project directory.
+2. Install dependencies:
+   npm install
+3. Create a .env file with necessary environment variables.
+4. Start backend server:
+   node server.js
+   Frontend Installation:
+5. Navigate to frontend project directory.
+6. Install dependencies:
+   npm install
+7. Start frontend development server:
+   npm start
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# Project_made4you
->>>>>>> origin/main
+Copyrights reserved by VPramod
