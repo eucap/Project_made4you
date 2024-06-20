@@ -27,13 +27,11 @@ import { WishlistProvider } from './context/WishlistContext';
 import { NavigationProvider } from './context/NavigationContext';
 import './App.css';
 
-
 const App = () => {
     const [products, setProducts] = useState([]);
     const [authenticated, setAuthenticated] = useState(isAuthenticated());
     const [notification, setNotification] = useState('');
     
-
     useEffect(() => {
         const fetchProducts = async () => {
             const response = await fetch('http://localhost:5000/api/products');
@@ -43,16 +41,6 @@ const App = () => {
 
         fetchProducts();
     }, []);
-
-    const handleAddToCart = (product) => {
-        setNotification('Product added to cart!');
-        setTimeout(() => setNotification(''), 2000); 
-    };
-
-    const handleAddToWishlist = (product) => {
-        setNotification('Product added to wishlist!');
-        setTimeout(() => setNotification(''), 2000);
-    };
 
     const handleRemoveFromWishlist = (productId) => {
         setNotification('Product removed from wishlist!');
