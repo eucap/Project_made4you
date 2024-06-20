@@ -2,8 +2,8 @@ import React, { useContext, useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import ProductCard from '../components/ProductCard';
 import Carousel from '../components/Carousel';
-import './Home.css'; // Import the CSS for Home
-import logo from '../img/made4you-ww.png'; // Adjust the path as necessary
+import './Home.css'; 
+import logo from '../img/made4you-ww.png'; 
 import arrowImage from '../img/arrow.png';
 import womenCollection from '../img/women-collection.png';
 import menCollection from '../img/men-collection.png';
@@ -12,14 +12,14 @@ import { CartContext } from '../context/CartContext';
 import { WishlistContext } from '../context/WishlistContext';
 
 const Home = ({setNotification} ) => {
-    const navigate = useNavigate();  // Updated hook
+    const navigate = useNavigate();  
     const { addToCart } = useContext(CartContext);
     const { addToWishlist } = useContext(WishlistContext);
 
     useEffect(() => {
         const token = localStorage.getItem('token');
         if (!token) {
-            navigate('/login');  // Updated redirection
+            navigate('/login');  
         }
     }, [navigate]);
 
@@ -67,8 +67,8 @@ const Home = ({setNotification} ) => {
     };
 
     const carouselImages = [
-        require('../img/men/caro-1.jpg'), // Ensure these paths are correct
-        require('../img/men/caro-2.jpg'), // Ensure these paths are correct
+        require('../img/men/caro-1.jpg'), 
+        require('../img/men/caro-2.jpg'), 
     ];
 
     return (

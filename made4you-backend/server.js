@@ -23,8 +23,6 @@ const storage = multer.diskStorage({
 
 const upload = multer({ storage: storage });
 
-
-
 const mongoUri = process.env.MONGO_URI || 'mongodb://localhost:27017/made4you';
 const jwtSecret = process.env.JWT_SECRET || '7f6f575c71353e196cd284692baf67f9d67a12244a99b9a60a0c5b32d0a54a24';
 
