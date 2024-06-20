@@ -11,10 +11,11 @@ const Chat = () => {
     useEffect(() => {
         const welcomeMessage = {
             sender: 'bot',
-            text: 'Hello! How can I assist you today?',
+            text: 'Hello! This is Made4you Bot, How can I assist you today?',
             buttons: [
                 { title: 'Categories', payload: 'show_categories' },
                 { title: 'Best Selling', payload: 'show_best_selling' },
+                { title: 'My Orders', payload: 'show_my_orders'},
             ],
         };
         setMessages([welcomeMessage]);
@@ -56,6 +57,8 @@ const Chat = () => {
             navigate('/kids');
         } else if (buttonPayload === 'show_accessories') {
             navigate('/accessories');
+        } else if (buttonPayload === 'show_my_orders'){
+            navigate('/orders');
         }
     };
 
@@ -68,7 +71,7 @@ const Chat = () => {
             <div className={`chat-container ${isMinimized ? 'minimized' : ''}`}>
                 <div className="chat-header" onClick={toggleChat}>
                     <span>Chat</span>
-                    <button>{isMinimized ? '↑' : '↓'}</button>
+                    
                 </div>
                 {!isMinimized && (
                     <>
