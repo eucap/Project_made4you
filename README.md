@@ -1,6 +1,7 @@
 Made4you Website- by USN 221VMTR02545
 
 In the project directory, you can run:
+
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -61,24 +62,6 @@ MongoDB Installation:
 3. Start MongoDB service:
    macOS/Linux: brew services start mongodb/brew/mongodb-community
    Windows: net start MongoDB
-
-Rasa Installation:
-
-1. Create a virtual environment:
-   python3 -m venv rasa_env (python3.10 recommended)
-2. Activate the virtual environment:
-   Windows: rasa_env\Scripts\activate
-   macOS/Linux: source rasa_env/bin/activate
-3. Install Rasa:
-   pip install rasa
-4. Initialize and configure Rasa project:
-   rasa init
-5. Train Rasa model:
-   rasa train
-6. Start Rasa servers:
-   rasa run actions
-   rasa run or
-   rasa run –enable-api -cors “\*”
 
 Backend Installation:
 
