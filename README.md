@@ -3,43 +3,82 @@
 ## Appendix A:
 
 1. Terms and Conditions
+
    Limitations of Liability:
+
    • The "Made4You" project will not be liable for any damages arising from the use or inability to use the website.
+
    User Warranties:
+
    • Users warrant that they will not use the website for any unlawful purposes.
+
    Dispute Resolution:
+
    • Any disputes arising out of or relating to the use of the website shall be resolved through mutual agreement or academic mediation if required.
+
 2. Privacy Policy
+
    Data Collection:
+
    • "Made4You" collects personal information such as names and email addresses when users create an account.
+
    Data Use:
+
    • Collected data is used to provide a better user experience and for project analysis.
+
    • User data is not shared with third parties.
+
    Data Disclosure:
+
    • User data may be disclosed in response to legal requests or to protect the rights and safety of "Made4You" and its users.
+
 3. Return and Refund Policy
    (Since this is an academic project, this section can be simplified or omitted if not applicable)
+
 4. Disclaimers
+
    Content Accuracy:
+
    • "Made4You" does not guarantee the accuracy or completeness of the information on the website.
+
 5. Code of Conduct
+
    • Users must respect other members of the community and refrain from any form of harassment or abusive behaviour.
+
    • Users must not post any content that is illegal, offensive, or violates the rights of others.
+
 6. Technical Specifications
+
    • The website supports the latest versions of major browsers (Chrome, Firefox, Safari, Edge).
+
    • The website is optimized for both desktop and mobile devices.
+
 7. Data Security Policy
+
    • "Made4You" uses encryption and secure servers to protect user data.
+
    • Regular security audits are conducted to ensure the integrity of the website.
+
 8. Intellectual Property Policy
+
    Content Attribution:
+
    This project uses images, text, and other materials sourced from various websites. The content is used solely for personal, non-commercial purposes. We do not claim ownership or copyright over the materials sourced from other sites.
+
    Fair Use:
+
    The content used in this project falls under the doctrine of fair use, as it is intended for educational and personal use without any commercial intent.
+
    Third-Party Content:
+
    If you are the owner of any content used in this project and believe it has been used inappropriately, please contact us, and we will promptly address your concerns.
-   Disclaimer: This project is intended as a personal endeavor, and no commercial benefit is derived from it. All third-party content is used in good faith, and no copyright infringement is intended.
+
+   Disclaimer:
+
+   This project is intended as a personal endeavor, and no commercial benefit is derived from it. All third-party content is used in good faith, and no copyright infringement is intended.
+
 9. Licenses
+
    • Include any third-party licenses for software or code used in the website, such as open-source licenses for libraries or frameworks.
 
 ## Appendix B: Sample API Endpoints
