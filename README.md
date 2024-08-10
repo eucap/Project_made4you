@@ -95,11 +95,16 @@ Copyrights reserved by VPramod
 
 ## Screenshots
 
-![Screenshot 1](<images-sc/Screenshot%20(1).png>)
-![Screenshot 2](<images-sc/Screenshot%20(2).png>)
-![Screenshot 3](<images-sc/Screenshot%20(3).png>)
-![Screenshot 4](<images-sc/Screenshot%20(4).png>)
-![Screenshot 5](<images-sc/Screenshot%20(5).png>)
+![Login page](images-sc/1.login.png)
+![SignUp page](images-sc/2.signup.png)
+![Home](images-sc/3.home.png)
+![Product Details Page](images-sc/4.productdetails.png)
+![Categories Page](images-sc/5.category.png)
+![Cart](images-sc/6.cart.png)
+![Payment](images-sc/7.orderplace.png)
+![Order History](images-sc/8.orderhistory.png)
+![Admin Dashboard Page](images-sc/9.admindashboard.png)
+![New Product Uploads Page](images-sc/10.newproductuploads.png)
 
 In the project directory, you can run:
 
