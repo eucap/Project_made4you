@@ -82,7 +82,7 @@ Copyrights reserved by VPramod
 
 ## Screenshots
 
-![](<images-sc/Screenshot(1).png>)
+![](<images -sc/Screenshot(1).png>)
 
 ![]()
 
