@@ -1,33 +1,47 @@
 Made4you Website- by USN 221VMTR02545 - PRAMOD KUMAR V
 
-In the project directory, you can run:
+Appendix A:
 
-### `npm start`
+1. Terms and Conditions
+   Limitations of Liability:
+   • The "Made4You" project will not be liable for any damages arising from the use or inability to use the website.
+   User Warranties:
+   • Users warrant that they will not use the website for any unlawful purposes.
+   Dispute Resolution:
+   • Any disputes arising out of or relating to the use of the website shall be resolved through mutual agreement or academic mediation if required.
+2. Privacy Policy
+   Data Collection:
+   • "Made4You" collects personal information such as names and email addresses when users create an account.
+   Data Use:
+   • Collected data is used to provide a better user experience and for project analysis.
+   • User data is not shared with third parties.
+   Data Disclosure:
+   • User data may be disclosed in response to legal requests or to protect the rights and safety of "Made4You" and its users.
+3. Return and Refund Policy
+   (Since this is an academic project, this section can be simplified or omitted if not applicable)
+4. Disclaimers
+   Content Accuracy:
+   • "Made4You" does not guarantee the accuracy or completeness of the information on the website.
+   External Links:
+   • The website may contain links to third-party websites, and "Made4You" is not responsible for the content or privacy practices of those websites.
+   Third-Party Services:
+   • "Made4You" is not responsible for any third-party services used in connection with the website.
+5. Code of Conduct
+   • Users must respect other members of the community and refrain from any form of harassment or abusive behaviour.
+   • Users must not post any content that is illegal, offensive, or violates the rights of others.
+6. Technical Specifications
+   • The website supports the latest versions of major browsers (Chrome, Firefox, Safari, Edge).
+   • The website is optimized for both desktop and mobile devices.
+7. Data Security Policy
+   • "Made4You" uses encryption and secure servers to protect user data.
+   • Regular security audits are conducted to ensure the integrity of the website.
+8. Intellectual Property Policy
+   • All content on the website, including text, images, and logos, is the property of "Made4You" and is protected by copyright laws.
+   • Users may not use any content from the website without written permission from "Made4You".
+9. Licenses
+   • Include any third-party licenses for software or code used in the website, such as open-source licenses for libraries or frameworks.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-Sample API Endpoints
+Appendix B: Sample API Endpoints
 
 User Management:
 • POST /api/users/signup: Registers a new user.
@@ -68,22 +82,48 @@ Backend Installation:
 1. Navigate to backend project directory.
 2. Install dependencies:
    npm install
-3. Create a .env file with necessary environment variables.
-4. Start backend server:
+3. Start backend server:
    node server.js
    Frontend Installation:
-5. Navigate to frontend project directory.
-6. Install dependencies:
+4. Navigate to frontend project directory.
+5. Install dependencies:
    npm install
-7. Start frontend development server:
+6. Start frontend development server:
    npm start
 
 Copyrights reserved by VPramod
 
 ## Screenshots
 
-![Screenshot 1](<Project_made4you/images-sc/Screenshot%20(1).png>)
-![Screenshot 2](<Project_made4you/images-sc/Screenshot%20(2).png>)
-![Screenshot 3](<Project_made4you/images-sc/Screenshot%20(3).png>)
-![Screenshot 4](<Project_made4you/images-sc/Screenshot%20(4).png>)
+![Screenshot 1](<images-sc/Screenshot%20(1).png>)
+![Screenshot 2](<images-sc/Screenshot%20(2).png>)
+![Screenshot 3](<images-sc/Screenshot%20(3).png>)
+![Screenshot 4](<images-sc/Screenshot%20(4).png>)
 ![Screenshot 5](<images-sc/Screenshot%20(5).png>)
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
