@@ -1,10 +1,10 @@
 // utils/auth.js
 export const login = (token) => {
-    localStorage.setItem('token', token);
+    localStorage.setItem('token', token); // storing token as token string  // Storing the authentication token in localStorage
 };
 
 export const logout = () => {
-    localStorage.removeItem('token');
+    localStorage.removeItem('token'); //removing token as we are logging out 
     window.location.href = '/login'; // Ensure redirection to login page
 };
 

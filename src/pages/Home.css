@@ -66,11 +66,13 @@
   
   /* Container for the product cards */
   .product-container {
+    height : 500px;
     padding: 0 10vw;
     display: flex;
     overflow-x: auto;
     scroll-behavior: smooth;
     position: relative;
+    flex-flow: column;
   }
   
   .product-container::-webkit-scrollbar {
