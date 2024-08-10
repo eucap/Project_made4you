@@ -1,4 +1,4 @@
-Made4you Website- by USN 221VMTR02545
+Made4you Website- by USN 221VMTR02545 - PRAMOD KUMAR V
 
 In the project directory, you can run:
 
@@ -79,3 +79,13 @@ Backend Installation:
    npm start
 
 Copyrights reserved by VPramod
+
+## Screenshots
+
+![](<images-sc/Screenshot(1).png>)
+
+![]()
+
+![]()
+
+![]()

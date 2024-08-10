@@ -208,6 +208,8 @@ const productSchema = new mongoose.Schema({
     reviews: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Review' }]
 });
 
+// Create a text index on the fields you want to search
+productSchema.index({ name: 'text', description: 'text', brand: 'text', pageCategory: 'text' });
 const Product = mongoose.model('Product', productSchema);
 
 // Review schema and model
@@ -273,21 +275,26 @@ app.get('/api/products/:id', async (req, res) => {
     }
 });
 
-// Add this endpoint to your server.js or routes file
+// Search products
 app.get('/api/products/search', async (req, res) => {
     const { query } = req.query;
     try {
-        const products = await Product.find({ 
-            $or: [
-                { name: { $regex: query, $options: 'i' } },
-                { description: { $regex: query, $options: 'i' } },
-                { brand: { $regex: query, $options: 'i' } },
-                { pageCategory: { $regex: query, $options: 'i' } }
-            ]
+        if (!query) {
+            return res.status(400).json({ msg: 'Query parameter is required' });
+        }
+
+        console.log('Search query:', query); // Log the search query
+
+        const products = await Product.find({
+            $text: { $search: query }
         });
+
+        console.log('Search results:', products); // Log the search results
+
         res.json(products);
     } catch (err) {
-        res.status(500).json({ msg: 'Server error' });
+        console.error('Error fetching search results:', err.message, err.stack);
+        res.status(500).json({ msg: 'Server error', error: err.message, stack: err.stack });
     }
 });
 

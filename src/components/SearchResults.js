@@ -7,8 +7,9 @@ const useQuery = () => {
     return new URLSearchParams(useLocation().search);
 };
 
-const SearchResults = (setNotification) => {
+const SearchResults = ({ setNotification }) => {
     const [products, setProducts] = useState([]);
+    const [error, setError] = useState('');
     const query = useQuery().get('query');
     const navigate = useNavigate();
 
@@ -20,10 +21,13 @@ const SearchResults = (setNotification) => {
                     const data = await response.json();
                     setProducts(data);
                 } else {
-                    console.error('Failed to fetch search results');
+                    const errorData = await response.json();
+                    console.error('Failed to fetch search results:', errorData.message);
+                    setError('Failed to fetch search results. Please try again later.');
                 }
             } catch (error) {
                 console.error('Error fetching search results:', error);
+                setError('Error fetching search results. Please try again later.');
             }
         };
 
@@ -39,8 +43,9 @@ const SearchResults = (setNotification) => {
     return (
         <div className="search-results">
             <h1>Search Results for "{query}"</h1>
+            {error && <p className="error-message">{error}</p>}
             <div className="product-container">
-                {products.length === 0 ? (
+                {products.length === 0 && !error ? (
                     <p>No products found</p>
                 ) : (
                     products.map(product => (

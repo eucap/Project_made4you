@@ -72,7 +72,7 @@ const App = () => {
                         <Route path="/upload-product" element={authenticated && isAdmin() ? <ProductUploadForm /> : <Navigate to="/login" />} />
                         <Route path="/orders" element={authenticated ? <Orders /> : <Navigate to="/login" />} />
                         <Route path="/profile" element={authenticated ? <Profile /> : <Navigate to="/login" />} />
-                        <Route path="/search" element={authenticated ? <SearchResults setNotification={setNotification}  products={products} /> : <Navigate to="/login" />} />
+                        <Route path="/search" element={authenticated ? <SearchResults setNotification={setNotification} /> : <Navigate to="/login" />} />
                         <Route path="/categories" element={authenticated ? <ProductPage /> : <Navigate to='/login' />} />
                         <Route path="/best-selling" element={authenticated ? <ProductPage /> : <Navigate to='/login' />} />
                     </Routes>

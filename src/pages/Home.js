@@ -81,7 +81,7 @@ const Home = ({setNotification} ) => {
             </header>
             <Carousel images={carouselImages} />
             <section className="product">
-                <h2 className="product-category">Best Selling</h2>
+               <div> <h2 className="product-category">Best Selling</h2>
                 <button className="pre-btn" onClick={() => scrollContainer('left')}>
                     <img src={arrowImage} alt="Previous" />
                 </button>
@@ -93,6 +93,7 @@ const Home = ({setNotification} ) => {
                 <button className="nxt-btn" onClick={() => scrollContainer('right')}>
                     <img src={arrowImage} alt="Next" />
                 </button>
+                 </div>
             </section>
 
             <section className="collection-container">
