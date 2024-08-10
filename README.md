@@ -86,4 +86,4 @@ Copyrights reserved by VPramod
 ![Screenshot 2](<Project_made4you/images-sc/Screenshot%20(2).png>)
 ![Screenshot 3](<Project_made4you/images-sc/Screenshot%20(3).png>)
 ![Screenshot 4](<Project_made4you/images-sc/Screenshot%20(4).png>)
-![Screenshot 5](<Project_made4you/images-sc/Screenshot%20(5).png>)
+![Screenshot 5](<images-sc/Screenshot%20(5).png>)
