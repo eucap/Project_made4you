@@ -1,6 +1,6 @@
-Made4you Website- by USN 221VMTR02545 - PRAMOD KUMAR V
+### Made4you Website- by USN 221VMTR02545 - PRAMOD KUMAR V
 
-Appendix A:
+## Appendix A:
 
 1. Terms and Conditions
    Limitations of Liability:
@@ -32,40 +32,49 @@ Appendix A:
    • "Made4You" uses encryption and secure servers to protect user data.
    • Regular security audits are conducted to ensure the integrity of the website.
 8. Intellectual Property Policy
-   • All content on the website, including text, images, and logos, is the property of "Made4You" and is protected by copyright laws.
-   • Users may not use any content from the website without written permission from "Made4You".
+   Content Attribution:
+   This project uses images, text, and other materials sourced from various websites. The content is used solely for personal, non-commercial purposes. We do not claim ownership or copyright over the materials sourced from other sites.
+   Fair Use:
+   The content used in this project falls under the doctrine of fair use, as it is intended for educational and personal use without any commercial intent.
+   Third-Party Content:
+   If you are the owner of any content used in this project and believe it has been used inappropriately, please contact us, and we will promptly address your concerns.
+   Disclaimer: This project is intended as a personal endeavor, and no commercial benefit is derived from it. All third-party content is used in good faith, and no copyright infringement is intended.
 9. Licenses
    • Include any third-party licenses for software or code used in the website, such as open-source licenses for libraries or frameworks.
 
-Appendix B: Sample API Endpoints
+## Appendix B: Sample API Endpoints
 
-User Management:
+# User Management:
+
 • POST /api/users/signup: Registers a new user.
 • POST /api/users/login: Authenticates a user.
 • GET /api/users/profile: Fetches the user's profile.
 • PUT /api/users/address: Updates the user's address.
 
-Product Management:
+# Product Management:
+
 • GET /api/products: Fetches all products.
 • POST /api/products: Adds a new product.
 • GET /api/products/:id: Fetches a specific product by ID.
 • DELETE /api/products/:id: Deletes a product by ID.
 • GET /api/products/search: Searches products based on a query.
 
-Order Management:
+# Order Management:
+
 • POST /api/orders: Places a new order.
 • GET /api/orders: Fetches all orders (Admin only).
 • GET /api/orders/user: Fetches orders for the logged-in user.
 • DELETE /api/orders/:id: Deletes an order by ID.
 
-Wishlist Management:
+# Wishlist Management:
+
 • POST /api/wishlist: Adds a product to the wishlist.
 • GET /api/wishlist: Fetches the user's wishlist.
 • DELETE /api/wishlist/:productId: Removes a product from the wishlist by product ID.
 
-Appendix C: Installation Guide
+## Appendix C: Installation Guide
 
-MongoDB Installation:
+# MongoDB Installation:
 
 1. Download MongoDB from mongodb.com.
 2. Follow installation instructions for your operating system.
@@ -73,7 +82,7 @@ MongoDB Installation:
    macOS/Linux: brew services start mongodb/brew/mongodb-community
    Windows: net start MongoDB
 
-Backend Installation:
+# Backend Installation:
 
 1. Navigate to backend project directory.
 2. Install dependencies:
@@ -87,7 +96,20 @@ Backend Installation:
 6. Start frontend development server:
    npm start
 
-Copyrights reserved by VPramod
+# Admin Login Instructions
+
+To create an admin login for accessing admin features, follow these steps:
+
+    Sign Up: Begin by signing up through the regular user registration process.
+
+    Access the Database: After signing up, open your local MongoDB database.
+
+    Edit User Role:
+        Navigate to the collection where user data is stored.
+        Find the user document corresponding to the account you just created.
+        Change the isadmin field from false to true.
+
+    Admin Access: After making this change, log in with the updated account to access the admin features.
 
 ## Screenshots
 
