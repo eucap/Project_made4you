@@ -1,4 +1,4 @@
-### Made4you Website- by USN 221VMTR02545 - PRAMOD KUMAR V
+# Made4you Website- by USN 221VMTR02545 - PRAMOD KUMAR V
 
 ## Appendix A:
 
@@ -44,14 +44,14 @@
 
 ## Appendix B: Sample API Endpoints
 
-# User Management:
+### User Management:
 
 • POST /api/users/signup: Registers a new user.
 • POST /api/users/login: Authenticates a user.
 • GET /api/users/profile: Fetches the user's profile.
 • PUT /api/users/address: Updates the user's address.
 
-# Product Management:
+### Product Management:
 
 • GET /api/products: Fetches all products.
 • POST /api/products: Adds a new product.
@@ -59,14 +59,14 @@
 • DELETE /api/products/:id: Deletes a product by ID.
 • GET /api/products/search: Searches products based on a query.
 
-# Order Management:
+### Order Management:
 
 • POST /api/orders: Places a new order.
 • GET /api/orders: Fetches all orders (Admin only).
 • GET /api/orders/user: Fetches orders for the logged-in user.
 • DELETE /api/orders/:id: Deletes an order by ID.
 
-# Wishlist Management:
+### Wishlist Management:
 
 • POST /api/wishlist: Adds a product to the wishlist.
 • GET /api/wishlist: Fetches the user's wishlist.
@@ -74,7 +74,7 @@
 
 ## Appendix C: Installation Guide
 
-# MongoDB Installation:
+### MongoDB Installation:
 
 1. Download MongoDB from mongodb.com.
 2. Follow installation instructions for your operating system.
@@ -82,7 +82,7 @@
    macOS/Linux: brew services start mongodb/brew/mongodb-community
    Windows: net start MongoDB
 
-# Backend Installation:
+### Backend Installation:
 
 1. Navigate to backend project directory.
 2. Install dependencies:
@@ -96,7 +96,7 @@
 6. Start frontend development server:
    npm start
 
-# Admin Login Instructions
+### Admin Login Instructions
 
 To create an admin login for accessing admin features, follow these steps:
 
