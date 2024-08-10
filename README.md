@@ -22,10 +22,6 @@ Appendix A:
 4. Disclaimers
    Content Accuracy:
    • "Made4You" does not guarantee the accuracy or completeness of the information on the website.
-   External Links:
-   • The website may contain links to third-party websites, and "Made4You" is not responsible for the content or privacy practices of those websites.
-   Third-Party Services:
-   • "Made4You" is not responsible for any third-party services used in connection with the website.
 5. Code of Conduct
    • Users must respect other members of the community and refrain from any form of harassment or abusive behaviour.
    • Users must not post any content that is illegal, offensive, or violates the rights of others.
